@@ -1,6 +1,6 @@
-import { render } from 'preact'
-import { renderWithQiankun, qiankunWindow } from 'vite-plugin-qiankun/dist/helper'
-import { App } from './app'
+import {render} from 'preact'
+import {renderWithQiankun, qiankunWindow} from 'vite-plugin-qiankun/dist/helper'
+import {App} from './app'
 import './index.css'
 
 const retrieveContainer = props => (props.container ?? document).querySelector('#app')
@@ -14,7 +14,7 @@ renderWithQiankun({
         renderApp(props)
     },
     bootstrap() { },
-    unmount() {
+    unmount(props) {
         render(null, retrieveContainer(props))
     },
 })

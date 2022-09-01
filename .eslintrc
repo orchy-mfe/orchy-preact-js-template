@@ -2,10 +2,13 @@
   "plugins": [],
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
-    "react-app"
+    "preact"
   ],
+  "settings": {
+    "jest": {
+      "version": 29
+    }
+  },
   "rules": {
     "no-unused-vars": "error",
     "semi": [
@@ -26,9 +29,6 @@
       {
         "ignoreCase": true
       }
-    ],
-    "react/no-unused-prop-types": 2,
-    "react/sort-prop-types": 2,
-    "react/jsx-filename-extension": 2
+    ]
   }
 }

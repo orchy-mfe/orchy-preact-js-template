@@ -1,6 +1,6 @@
-import { useState } from 'preact/hooks'
-import { ReactComponent as PreactLogo } from './assets/preact.svg'
-import { ReactComponent as ViteLogo } from './assets/vite.svg'
+import {useState} from 'preact/hooks'
+import {ReactComponent as PreactLogo} from './assets/preact.svg'
+import {ReactComponent as ViteLogo} from './assets/vite.svg'
 import './app.css'
 
 export function App() {
@@ -9,10 +9,10 @@ export function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" rel="noreferrer" target="_blank">
           <ViteLogo />
         </a>
-        <a href="https://preactjs.com" target="_blank">
+        <a href="https://preactjs.com" rel="noreferrer" target="_blank">
           <PreactLogo />
         </a>
       </div>
