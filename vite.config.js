@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     visualizer(),
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-preact-js-template/',
-  server: { port },
+  server: { port, cors: true },
   test: {
     environment: 'jsdom',
     mockReset: true
