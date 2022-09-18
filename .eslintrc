@@ -29,6 +29,10 @@
       {
         "ignoreCase": true
       }
+    ],
+    "quote-props": [
+      "error",
+      "as-needed"
     ]
   }
 }
