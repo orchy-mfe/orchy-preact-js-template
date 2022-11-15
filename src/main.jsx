@@ -1,30 +1,23 @@
-import {render} from 'preact'
-import {renderWithQiankun, qiankunWindow} from 'vite-plugin-qiankun/dist/helper'
-import {BrowserRouter} from 'react-router-dom'
-import {App} from './app'
+import { render } from 'preact'
+import { BrowserRouter } from 'react-router-dom'
+import { App } from './app'
 import './index.css'
 
-const retrieveContainer = props => (props.container ?? document).querySelector('#app')
+import OrchyMicroFrontend from '@orchy-mfe/spa-adapter'
 
-const renderApp = (props = {}) => {
-    render(
-        <BrowserRouter basename={props.baseUrl}>
-            <App />, 
-        </BrowserRouter>,
-        retrieveContainer(props)
-    )
+export class PreactMfe extends OrchyMicroFrontend {
+    async mount(microFrontendProperties) {
+        render(
+            <BrowserRouter basename={microFrontendProperties?.basePath}>
+                <App />,
+            </BrowserRouter>,
+            this.getContainer()
+        )
+    }
+
+    async unmount() {
+        render(null, this.getContainer())
+    }
 }
 
-renderWithQiankun({
-    mount(props) {
-        renderApp(props)
-    },
-    bootstrap() { },
-    unmount(props) {
-        render(null, retrieveContainer(props))
-    },
-})
-
-if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-    renderApp({})
-}
+customElements.define('preact-mfe', PreactMfe)
