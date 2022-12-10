@@ -1,6 +1,6 @@
-import { render } from 'preact'
-import { BrowserRouter } from 'react-router-dom'
-import { App } from './app'
+import {render} from 'preact'
+import {BrowserRouter} from 'react-router-dom'
+import {App} from './app'
 import './index.css'
 
 import OrchyMicroFrontend from '@orchy-mfe/spa-adapter'
