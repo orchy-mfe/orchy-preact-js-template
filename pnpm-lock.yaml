@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@preact/preset-vite':
-    specifier: ^2.8.3
-    version: 2.8.3(@babel/core@7.23.2)(preact@10.22.1)(vite@5.3.3)
+    specifier: ^2.9.0
+    version: 2.9.0(@babel/core@7.23.2)(preact@10.22.1)(vite@5.3.3)
   '@testing-library/preact':
     specifier: ^3.2.4
     version: 3.2.4(preact@10.22.1)
@@ -107,7 +107,7 @@ packages:
       '@babel/traverse': 7.23.2
       '@babel/types': 7.23.0
       convert-source-map: 2.0.0
-      debug: 4.3.4
+      debug: 4.3.5
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -699,8 +699,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@preact/preset-vite@2.8.3(@babel/core@7.23.2)(preact@10.22.1)(vite@5.3.3):
-    resolution: {integrity: sha512-IT4+IV3D4lIyoDrp4FUfx4dT2yW/5KIl2MXAsqqItGTbz1xUhtSyP9nS2kLXNnhLG4I2Nku/X+vKFMmRG+oMDA==}
+  /@preact/preset-vite@2.9.0(@babel/core@7.23.2)(preact@10.22.1)(vite@5.3.3):
+    resolution: {integrity: sha512-B9yVT7AkR6owrt84K3pLNyaKSvlioKdw65VqE/zMiR6HMovPekpsrwBNs5DJhBFEd5cvLMtCjHNHZ9P7Oblveg==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x || 4.x || 5.x
@@ -712,7 +712,7 @@ packages:
       '@prefresh/vite': 2.4.1(preact@10.22.1)(vite@5.3.3)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.23.2)
-      debug: 4.3.4
+      debug: 4.3.5
       kolorist: 1.8.0
       magic-string: 0.30.5
       node-html-parser: 6.1.12
