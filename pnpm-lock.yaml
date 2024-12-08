@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@preact/preset-vite':
-    specifier: ^2.9.2
-    version: 2.9.2(@babel/core@7.23.2)(preact@10.25.1)(vite@6.0.3)
+    specifier: ^2.9.3
+    version: 2.9.3(@babel/core@7.23.2)(preact@10.25.1)(vite@6.0.3)
   '@testing-library/preact':
     specifier: ^3.2.4
     version: 3.2.4(preact@10.25.1)
@@ -902,8 +902,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@preact/preset-vite@2.9.2(@babel/core@7.23.2)(preact@10.25.1)(vite@6.0.3):
-    resolution: {integrity: sha512-Gtp0pPd4s/bZiPAvn4Lhd/on5YZXd/AaXoO03MMtLTmH7nsH3BuXFZnBqvXpqozBDthjxwDWwGEJcf129ctY+g==}
+  /@preact/preset-vite@2.9.3(@babel/core@7.23.2)(preact@10.25.1)(vite@6.0.3):
+    resolution: {integrity: sha512-uVDSKsFnPa/bmRTAcPiYpTvC04T1lhIH2ho3CJZLYibwcwliElS/i64iyATZkgR4DJxSc/JwOCSQS4IF/a03OQ==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x || 4.x || 5.x || 6.x
