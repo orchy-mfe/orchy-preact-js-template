@@ -12,8 +12,8 @@ dependencies:
     specifier: ^10.25.4
     version: 10.25.4
   react-router-dom:
-    specifier: ^7.1.1
-    version: 7.1.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^7.1.2
+    version: 7.1.2(react-dom@18.2.0)(react@18.2.0)
   rxjs:
     specifier: ^7.8.1
     version: 7.8.1
@@ -3069,8 +3069,8 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
 
-  /react-router-dom@7.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-vSrQHWlJ5DCfyrhgo0k6zViOe9ToK8uT5XGSmnuC2R3/g261IdIMpZVqfjD6vWSXdnf5Czs4VA/V60oVR6/jnA==}
+  /react-router-dom@7.1.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-kE7JdrDfeWO/2d6RPucLmqp2UL8Isv1VWtI5MQyYNA99KtncqxWDL6550+0rH4fboJKJbXRcyjRnIRT/gkxTcA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -3078,11 +3078,11 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 7.1.1(react-dom@18.2.0)(react@18.2.0)
+      react-router: 7.1.2(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
-  /react-router@7.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-39sXJkftkKWRZ2oJtHhCxmoCrBCULr/HAH4IT5DHlgu/Q0FCPV0S4Lx+abjDTx/74xoZzNYDYbOZWlJjruyuDQ==}
+  /react-router@7.1.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-KeallSO30KLpIe/ZZqfk6pCJ1c+5JhMxl3SCS3Zx1LgaGuQbgLDmjuNi6KZ5LnAV9sWjbmBWGRw8Um/Pw6BExg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
